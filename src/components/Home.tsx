@@ -31,7 +31,7 @@ const Home = () => {
   };
 
   useEffect(() => {
-    fetchProducts(process.env.VITE_APP_API!);
+    fetchProducts("https://dummyjson.com/products");
   }, []);
 
   return (
